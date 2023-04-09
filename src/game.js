@@ -10,4 +10,5 @@ function gameLoop() {
 console.log("game loop")
 }
 
+tileMap.setCanvasSize(canvas)
 setInterval(gameLoop, 1000 / 75);
